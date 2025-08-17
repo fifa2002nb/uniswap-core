@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SafeCast",
+  "sourceName": "src/deploy/libraries/SafeCast.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "SafeCastOverflow",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x6080806040523460175760399081601c823930815050f35b5f80fdfe5f80fdfea2646970667358221220a4d0447aec1a34c6a4ab4efb41ea3ff08e80173306e0f5c949b9696ba8bda9c764736f6c634300081a0033",
+  "deployedBytecode": "0x5f80fdfea2646970667358221220a4d0447aec1a34c6a4ab4efb41ea3ff08e80173306e0f5c949b9696ba8bda9c764736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

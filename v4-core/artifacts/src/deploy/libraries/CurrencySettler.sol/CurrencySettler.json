@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "CurrencySettler",
+  "sourceName": "src/deploy/libraries/CurrencySettler.sol",
+  "abi": [],
+  "bytecode": "0x6080806040523460175760399081601c823930815050f35b5f80fdfe5f80fdfea2646970667358221220cab293abfc41d80dfeeee1894b1524e0c548d2270907ec6cf76b11993bacbb2b64736f6c634300081a0033",
+  "deployedBytecode": "0x5f80fdfea2646970667358221220cab293abfc41d80dfeeee1894b1524e0c548d2270907ec6cf76b11993bacbb2b64736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

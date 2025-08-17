@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ParseBytes",
+  "sourceName": "src/deploy/libraries/ParseBytes.sol",
+  "abi": [],
+  "bytecode": "0x6080806040523460175760399081601c823930815050f35b5f80fdfe5f80fdfea2646970667358221220779ae37234cf37bc1ec271f18a36f525c0c80d84475cc080245f95c0406ae24464736f6c634300081a0033",
+  "deployedBytecode": "0x5f80fdfea2646970667358221220779ae37234cf37bc1ec271f18a36f525c0c80d84475cc080245f95c0406ae24464736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

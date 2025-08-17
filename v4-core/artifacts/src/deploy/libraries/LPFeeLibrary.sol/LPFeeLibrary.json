@@ -1,0 +1,74 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "LPFeeLibrary",
+  "sourceName": "src/deploy/libraries/LPFeeLibrary.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint24",
+          "name": "fee",
+          "type": "uint24"
+        }
+      ],
+      "name": "LPFeeTooLarge",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "DYNAMIC_FEE_FLAG",
+      "outputs": [
+        {
+          "internalType": "uint24",
+          "name": "",
+          "type": "uint24"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "MAX_LP_FEE",
+      "outputs": [
+        {
+          "internalType": "uint24",
+          "name": "",
+          "type": "uint24"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "OVERRIDE_FEE_FLAG",
+      "outputs": [
+        {
+          "internalType": "uint24",
+          "name": "",
+          "type": "uint24"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "REMOVE_OVERRIDE_MASK",
+      "outputs": [
+        {
+          "internalType": "uint24",
+          "name": "",
+          "type": "uint24"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60808060405234601957610158908161001e823930815050f35b5f80fdfe6080806040526004361015610012575f80fd5b5f3560e01c9081633b01d64d146100ee575080633fc48eba146100b85780636f95ebcf146100825763f26ef49d14610048575f80fd5b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261007e576020604051628000008152f35b5f80fd5b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261007e57602060405162bfffff8152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261007e576020604051620f42408152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261007e57806240000060209252f3fea26469706673582212200344b7029b4ff9e496ed334fa14d0a1b436ef2556745ccdfd90035b89bea699b64736f6c634300081a0033",
+  "deployedBytecode": "0x6080806040526004361015610012575f80fd5b5f3560e01c9081633b01d64d146100ee575080633fc48eba146100b85780636f95ebcf146100825763f26ef49d14610048575f80fd5b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261007e576020604051628000008152f35b5f80fd5b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261007e57602060405162bfffff8152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261007e576020604051620f42408152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261007e57806240000060209252f3fea26469706673582212200344b7029b4ff9e496ed334fa14d0a1b436ef2556745ccdfd90035b89bea699b64736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

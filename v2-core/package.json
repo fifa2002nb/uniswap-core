@@ -1,0 +1,59 @@
+{
+  "name": "@uniswap/v2-core",
+  "description": "🎛 Core contracts for the UniswapV2 protocol",
+  "version": "1.0.1",
+  "homepage": "https://uniswap.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Uniswap/uniswap-v2-core"
+  },
+  "keywords": [
+    "uniswap",
+    "ethereum",
+    "v2",
+    "core",
+    "uniswap-v2"
+  ],
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "bin": {
+    "uniswap-v2-deploy": "./bin/deploy.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "ethereumjs-util": "^7.1.5",
+    "mocha": "^10.2.0",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "solc": "0.5.16",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "hardhat": "^2.19.4",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^5.7.2",
+    "dotenv": "^16.3.1"
+  },
+  "scripts": {
+    "lint": "yarn prettier ./test/*.ts --check",
+    "lint:fix": "yarn prettier ./test/*.ts --write",
+    "clean": "rimraf ./build/",
+    "precompile": "yarn clean",
+    "compile": "waffle .waffle.json",
+    "pretest": "yarn compile",
+    "test": "mocha",
+    "prepublishOnly": "yarn test",
+    "compile:hardhat": "hardhat compile",
+    "deploy:bsc-testnet": "hardhat run scripts/deploy.js --network bsc-testnet",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "verify:bsc-testnet": "hardhat run scripts/verify.js --network bsc-testnet"
+  },
+  "license": "GPL-3.0-or-later"
+}

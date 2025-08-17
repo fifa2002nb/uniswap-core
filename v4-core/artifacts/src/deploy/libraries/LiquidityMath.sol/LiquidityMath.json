@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "LiquidityMath",
+  "sourceName": "src/deploy/libraries/LiquidityMath.sol",
+  "abi": [],
+  "bytecode": "0x6080806040523460175760399081601c823930815050f35b5f80fdfe5f80fdfea26469706673582212208b6b53c6c399db82b608194249adad57b24dabcc2ba091a8961a22a53387826d64736f6c634300081a0033",
+  "deployedBytecode": "0x5f80fdfea26469706673582212208b6b53c6c399db82b608194249adad57b24dabcc2ba091a8961a22a53387826d64736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

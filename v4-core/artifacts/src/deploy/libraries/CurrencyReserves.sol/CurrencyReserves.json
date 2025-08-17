@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "CurrencyReserves",
+  "sourceName": "src/deploy/libraries/CurrencyReserves.sol",
+  "abi": [],
+  "bytecode": "0x6080806040523460175760399081601c823930815050f35b5f80fdfe5f80fdfea264697066735822122014846d8843b020b334fbbdd982dc313e755a7747c33223090d78d49ecc71cacb64736f6c634300081a0033",
+  "deployedBytecode": "0x5f80fdfea264697066735822122014846d8843b020b334fbbdd982dc313e755a7747c33223090d78d49ecc71cacb64736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

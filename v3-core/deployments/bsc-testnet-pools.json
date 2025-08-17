@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "network": "bsc-testnet",
+      "factory": "0x5E8d6cD52e3aCD28D8fBB8d13FE2bB87015bF8c1",
+      "token0": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec",
+      "token1": "0xb0C1d21F25D94fA6f3827909d622cd443D6def3e",
+      "fee": 3000,
+      "sqrtPriceX96": "79228162514264337593543950336",
+      "pool": "0xEB1f4d2Edaa52389fC7B6024c1836E29ad5a86de",
+      "txCreate": "0xcade6015b12ae158331e35a6312285f1a47945a03d8eecb50421b4d621037e58",
+      "timestamp": "2025-08-09T03:30:06.698Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "factory": "0x5E8d6cD52e3aCD28D8fBB8d13FE2bB87015bF8c1",
+      "token0": "0xBc4a03641b37B24c7496Eb73A739318e101127d3",
+      "token1": "0xb0C1d21F25D94fA6f3827909d622cd443D6def3e",
+      "fee": 3000,
+      "sqrtPriceX96": "79228162514264337593543950336",
+      "pool": "0xCFFee81eE6465072f88187d21A78Ec13B5E0A361",
+      "txCreate": "0xd795277bad01270d2febf64b3bd0a12f4b569b3e296accfe4dfb113fdc9a8112",
+      "timestamp": "2025-08-10T01:27:50.230Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "factory": "0x5E8d6cD52e3aCD28D8fBB8d13FE2bB87015bF8c1",
+      "token0": "0xBc4a03641b37B24c7496Eb73A739318e101127d3",
+      "token1": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec",
+      "fee": 3000,
+      "sqrtPriceX96": "79228162514264337593543950336",
+      "pool": "0xb9841d2a42c37C01f34797355eb00b5af5DEE696",
+      "txCreate": "0x53d1595fa8f8fc142ff81808c870cbe4063175ab3870ac2d8433bd615eeffb31",
+      "timestamp": "2025-08-10T01:29:26.402Z"
+    }
+  ]
+}

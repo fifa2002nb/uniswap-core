@@ -1,0 +1,8 @@
+{
+  "network": "bsc-testnet",
+  "poolManager": "0xC1DA7283769a7f098dB3eE08a522AdAAE081782b",
+  "deployer": "0x658F54C9bA37CF5C3cfE1775245a82fBa639314A",
+  "owner": "0x658F54C9bA37CF5C3cfE1775245a82fBa639314A",
+  "timestamp": "2025-08-08T15:47:50.419Z",
+  "chainId": 97
+}

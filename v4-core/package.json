@@ -1,0 +1,55 @@
+{
+  "name": "@uniswap/v4-core",
+  "version": "1.0.2",
+  "description": "🦄 Core smart contracts of Uniswap v4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uniswap/v4-core.git"
+  },
+  "license": "BUSL-1.1",
+  "keywords": [
+    "uniswap",
+    "core",
+    "v4"
+  ],
+  "bugs": {
+    "url": "https://uniswap.org/bug-bounty"
+  },
+  "homepage": "https://github.com/Uniswap/v4-core#readme",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "bin": {
+    "uniswap-v4-deploy": "./bin/deploy.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@typechain/ethers-v5": "^4.0.0",
+    "@typechain/hardhat": "^6.0.0",
+    "@types/node": "^24.2.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.0.8",
+    "forge-std": "^1.1.2",
+    "hardhat": "^2.19.4",
+    "solmate": "^6.8.0",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:bsc-testnet": "hardhat run scripts/deploy.js --network bsc-testnet",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "verify:bsc-testnet": "hardhat run scripts/verify.js --network bsc-testnet",
+    "verify:local": "hardhat run scripts/verify.js --network localhost"
+  }
+}

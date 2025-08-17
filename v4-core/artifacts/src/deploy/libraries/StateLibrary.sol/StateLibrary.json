@@ -1,0 +1,89 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "StateLibrary",
+  "sourceName": "src/deploy/libraries/StateLibrary.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "FEE_GROWTH_GLOBAL0_OFFSET",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "LIQUIDITY_OFFSET",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "POOLS_SLOT",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "POSITIONS_OFFSET",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "TICKS_OFFSET",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "TICK_BITMAP_OFFSET",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608080604052346019576101ce908161001e823930815050f35b5f80fdfe6080806040526004361015610012575f80fd5b5f3560e01c9081632ba31c53146101665750806357eb1da714610132578063769323e3146100fe5780637d35604a146100ca578063b432004a146100965763ca24e3b51461005e575f80fd5b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160018152f35b5f80fd5b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160038152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160058152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160048152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160068152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100925780600660209252f3fea26469706673582212209496326ceefa9b4fecdf0ec412ddb8a7e1fadc00f649332f5ac4b694b7e03ece64736f6c634300081a0033",
+  "deployedBytecode": "0x6080806040526004361015610012575f80fd5b5f3560e01c9081632ba31c53146101665750806357eb1da714610132578063769323e3146100fe5780637d35604a146100ca578063b432004a146100965763ca24e3b51461005e575f80fd5b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160018152f35b5f80fd5b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160038152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160058152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160048152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261009257602060405160068152f35b5f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100925780600660209252f3fea26469706673582212209496326ceefa9b4fecdf0ec412ddb8a7e1fadc00f649332f5ac4b694b7e03ece64736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

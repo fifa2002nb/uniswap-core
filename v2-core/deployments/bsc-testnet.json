@@ -1,0 +1,7 @@
+{
+  "network": "bsc-testnet",
+  "factory": "0xD56cE9501890f58755Af71c26A403f7FE9465944",
+  "feeToSetter": "0x658F54C9bA37CF5C3cfE1775245a82fBa639314A",
+  "deployer": "0x658F54C9bA37CF5C3cfE1775245a82fBa639314A",
+  "timestamp": "2025-08-08T14:43:54.154Z"
+}

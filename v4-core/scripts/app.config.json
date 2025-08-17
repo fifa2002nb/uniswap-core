@@ -1,0 +1,24 @@
+{
+  "create_pool": {
+    "manager": "0xC1DA7283769a7f098dB3eE08a522AdAAE081782b",
+    "token0": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec",
+    "token1": "0xb0C1d21F25D94fA6f3827909d622cd443D6def3e",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "sqrtPriceX96": "79228162514264337593543950336"
+  },
+  "add_liquidity": {
+    "tickLower": -60000,
+    "tickUpper": 60000,
+    "liquidityDelta": "1000000000000000000",
+    "salt": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "useClaims": false,
+    "useBurn": false,
+    "recipient": ""
+  },
+  "deployed_tokens": {
+    "TokenA": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec",
+    "TokenB": "0xb0C1d21F25D94fA6f3827909d622cd443D6def3e",
+    "WBNB": "0xBc4a03641b37B24c7496Eb73A739318e101127d3"
+  }
+}

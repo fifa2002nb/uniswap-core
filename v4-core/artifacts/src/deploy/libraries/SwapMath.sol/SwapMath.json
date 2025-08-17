@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SwapMath",
+  "sourceName": "src/deploy/libraries/SwapMath.sol",
+  "abi": [],
+  "bytecode": "0x6080806040523460175760399081601c823930815050f35b5f80fdfe5f80fdfea2646970667358221220a3fb6f2263d56c56d024bdabfb43719aa983e6e0d20974da79cca47b39462ca164736f6c634300081a0033",
+  "deployedBytecode": "0x5f80fdfea2646970667358221220a3fb6f2263d56c56d024bdabfb43719aa983e6e0d20974da79cca47b39462ca164736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,40 @@
+{
+  "create_pair": {
+    "factory": "0xD56cE9501890f58755Af71c26A403f7FE9465944",
+    "tokenA": "0xBc4a03641b37B24c7496Eb73A739318e101127d3",
+    "tokenB": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec"
+  },
+  "deployed_tokens": {
+    "TokenA": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec",
+    "TokenB": "0xb0C1d21F25D94fA6f3827909d622cd443D6def3e",
+    "WBNB": "0xBc4a03641b37B24c7496Eb73A739318e101127d3"
+  },
+  "add_liquidity": {
+    "factory": "0xD56cE9501890f58755Af71c26A403f7FE9465944",
+    "tokenA": "0xBc4a03641b37B24c7496Eb73A739318e101127d3",
+    "tokenB": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec",
+    "amountA": "100",
+    "amountB": "100",
+    "to": ""
+  },
+  "query_balance": {
+    "accounts": [
+      {
+        "address": "0x658F54C9bA37CF5C3cfE1775245a82fBa639314A",
+        "description": "deployer"
+      },
+      {
+        "address": "0x33D6EC1d6D579478aB1B1348c2Fc1Dd8f4d59A90",
+        "description": "v2 pair"
+      },
+      {
+        "address": "0xEB1f4d2Edaa52389fC7B6024c1836E29ad5a86de",
+        "description": "v3 pool"
+      },
+      {
+        "address": "0xC1DA7283769a7f098dB3eE08a522AdAAE081782b",
+        "description": "v4 manager"
+      }
+    ]
+  }
+}

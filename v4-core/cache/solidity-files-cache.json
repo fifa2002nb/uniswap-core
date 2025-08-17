@@ -1,0 +1,1964 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/ERC6909.sol": {
+      "lastModificationDate": 1754667437253,
+      "contentHash": "8febb763d806ff871dc3c12e3508f015",
+      "sourceName": "src/deploy/ERC6909.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/external/IERC6909Claims.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC6909"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/interfaces/external/IERC6909Claims.sol": {
+      "lastModificationDate": 1754667505191,
+      "contentHash": "4fc5d7c51f35f6a84ebffdfb9015a66d",
+      "sourceName": "src/deploy/interfaces/external/IERC6909Claims.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC6909Claims"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/ERC6909Claims.sol": {
+      "lastModificationDate": 1754667437257,
+      "contentHash": "eb6c1a6628b0493d14995ae92d79f5ba",
+      "sourceName": "src/deploy/ERC6909Claims.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC6909.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC6909Claims"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/PoolManager.sol": {
+      "lastModificationDate": 1754667437244,
+      "contentHash": "1edbd3c77294045a2ae9bfe9ba110cc7",
+      "sourceName": "src/deploy/PoolManager.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/Hooks.sol",
+        "./libraries/Pool.sol",
+        "./libraries/SafeCast.sol",
+        "./libraries/Position.sol",
+        "./libraries/LPFeeLibrary.sol",
+        "./types/Currency.sol",
+        "./types/PoolKey.sol",
+        "./libraries/TickMath.sol",
+        "./NoDelegateCall.sol",
+        "./interfaces/IHooks.sol",
+        "./interfaces/IPoolManager.sol",
+        "./interfaces/callback/IUnlockCallback.sol",
+        "./ProtocolFees.sol",
+        "./ERC6909Claims.sol",
+        "./types/PoolId.sol",
+        "./types/PoolOperation.sol",
+        "./types/BalanceDelta.sol",
+        "./types/BeforeSwapDelta.sol",
+        "./libraries/Lock.sol",
+        "./libraries/CurrencyDelta.sol",
+        "./libraries/NonzeroDeltaCount.sol",
+        "./libraries/CurrencyReserves.sol",
+        "./Extsload.sol",
+        "./Exttload.sol",
+        "./libraries/CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "0.8.26"
+      ],
+      "artifacts": [
+        "PoolManager"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/Hooks.sol": {
+      "lastModificationDate": 1754667505198,
+      "contentHash": "f52b4bee451bfa37d8d0a245c44adf85",
+      "sourceName": "src/deploy/libraries/Hooks.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/PoolKey.sol",
+        "../interfaces/IHooks.sol",
+        "./SafeCast.sol",
+        "./LPFeeLibrary.sol",
+        "../types/BalanceDelta.sol",
+        "../types/BeforeSwapDelta.sol",
+        "../interfaces/IPoolManager.sol",
+        "../types/PoolOperation.sol",
+        "./ParseBytes.sol",
+        "./CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Hooks"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/Position.sol": {
+      "lastModificationDate": 1754667505196,
+      "contentHash": "7e454522b69c5bbc56674c99ac1c5ef9",
+      "sourceName": "src/deploy/libraries/Position.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./FullMath.sol",
+        "./FixedPoint128.sol",
+        "./LiquidityMath.sol",
+        "./CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Position"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/LPFeeLibrary.sol": {
+      "lastModificationDate": 1754667505201,
+      "contentHash": "9c43170b9172c58fc7e369ef622a3f52",
+      "sourceName": "src/deploy/libraries/LPFeeLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LPFeeLibrary"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/types/PoolKey.sol": {
+      "lastModificationDate": 1754667505210,
+      "contentHash": "398fad21745911bc900a2554be64c61a",
+      "sourceName": "src/deploy/types/PoolKey.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Currency.sol",
+        "../interfaces/IHooks.sol",
+        "./PoolId.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/types/Currency.sol": {
+      "lastModificationDate": 1754667505211,
+      "contentHash": "291e0c95e9368cfc77d3f730d602131e",
+      "sourceName": "src/deploy/types/Currency.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/external/IERC20Minimal.sol",
+        "../libraries/CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CurrencyLibrary"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/TickMath.sol": {
+      "lastModificationDate": 1754667505200,
+      "contentHash": "5a64ebeb2ad0d4d53dbfadab198190ea",
+      "sourceName": "src/deploy/libraries/TickMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BitMath.sol",
+        "./CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TickMath"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/Pool.sol": {
+      "lastModificationDate": 1754667505199,
+      "contentHash": "39eb921eaa90c1b24e39b3dee2d20119",
+      "sourceName": "src/deploy/libraries/Pool.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeCast.sol",
+        "./TickBitmap.sol",
+        "./Position.sol",
+        "./UnsafeMath.sol",
+        "./FixedPoint128.sol",
+        "./TickMath.sol",
+        "./SqrtPriceMath.sol",
+        "./SwapMath.sol",
+        "../types/BalanceDelta.sol",
+        "../types/Slot0.sol",
+        "./ProtocolFeeLibrary.sol",
+        "./LiquidityMath.sol",
+        "./LPFeeLibrary.sol",
+        "./CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pool"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/NoDelegateCall.sol": {
+      "lastModificationDate": 1754667518562,
+      "contentHash": "0d73efdda00941855b3e20ea146ade1e",
+      "sourceName": "src/deploy/NoDelegateCall.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "NoDelegateCall"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/interfaces/IPoolManager.sol": {
+      "lastModificationDate": 1754667505188,
+      "contentHash": "4d5b4ead1c29e3ae8ccfa5e195e655f2",
+      "sourceName": "src/deploy/interfaces/IPoolManager.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/Currency.sol",
+        "../types/PoolKey.sol",
+        "./IHooks.sol",
+        "./external/IERC6909Claims.sol",
+        "./IProtocolFees.sol",
+        "../types/BalanceDelta.sol",
+        "../types/PoolId.sol",
+        "./IExtsload.sol",
+        "./IExttload.sol",
+        "../types/PoolOperation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "IPoolManager"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/interfaces/IHooks.sol": {
+      "lastModificationDate": 1754667505187,
+      "contentHash": "f1e10e0c258b5b05da2f768b7a60abc0",
+      "sourceName": "src/deploy/interfaces/IHooks.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/PoolKey.sol",
+        "../types/BalanceDelta.sol",
+        "../types/PoolOperation.sol",
+        "../types/BeforeSwapDelta.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IHooks"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/interfaces/callback/IUnlockCallback.sol": {
+      "lastModificationDate": 1754667505190,
+      "contentHash": "43f66660291be4d6aad9bdcc895462ba",
+      "sourceName": "src/deploy/interfaces/callback/IUnlockCallback.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IUnlockCallback"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/ProtocolFees.sol": {
+      "lastModificationDate": 1754667437249,
+      "contentHash": "b8a8b1936c1e940645f0dfdd30c1f32e",
+      "sourceName": "src/deploy/ProtocolFees.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./types/Currency.sol",
+        "./libraries/CurrencyReserves.sol",
+        "./interfaces/IProtocolFees.sol",
+        "./types/PoolKey.sol",
+        "./libraries/ProtocolFeeLibrary.sol",
+        "solmate/src/auth/Owned.sol",
+        "./types/PoolId.sol",
+        "./libraries/Pool.sol",
+        "./libraries/CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ProtocolFees"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/types/PoolId.sol": {
+      "lastModificationDate": 1754667505211,
+      "contentHash": "a6e85b945451c582bcf7de3452c782cb",
+      "sourceName": "src/deploy/types/PoolId.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PoolKey.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PoolIdLibrary"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/types/BalanceDelta.sol": {
+      "lastModificationDate": 1754667505210,
+      "contentHash": "dec730cf97f8429624545ffff69e7909",
+      "sourceName": "src/deploy/types/BalanceDelta.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BalanceDeltaLibrary"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/types/PoolOperation.sol": {
+      "lastModificationDate": 1754667505211,
+      "contentHash": "4bbbbf40d91eae968af7db2c70578c7c",
+      "sourceName": "src/deploy/types/PoolOperation.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/PoolKey.sol",
+        "../types/BalanceDelta.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": []
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/types/BeforeSwapDelta.sol": {
+      "lastModificationDate": 1754667505211,
+      "contentHash": "ae7541dc512b8b3131e5ef904f047a72",
+      "sourceName": "src/deploy/types/BeforeSwapDelta.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BeforeSwapDeltaLibrary"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/Lock.sol": {
+      "lastModificationDate": 1754667505197,
+      "contentHash": "d3a4be9a156d9a9930a7cf18366192c8",
+      "sourceName": "src/deploy/libraries/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/CurrencyDelta.sol": {
+      "lastModificationDate": 1754667505201,
+      "contentHash": "b3c4b835c0314375f24eeafda83949f1",
+      "sourceName": "src/deploy/libraries/CurrencyDelta.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/Currency.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "CurrencyDelta"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/CurrencyReserves.sol": {
+      "lastModificationDate": 1754667505200,
+      "contentHash": "281683f328e83c65da1b3ccae5cda57b",
+      "sourceName": "src/deploy/libraries/CurrencyReserves.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/Currency.sol",
+        "./CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "CurrencyReserves"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/Extsload.sol": {
+      "lastModificationDate": 1754667518566,
+      "contentHash": "0addb64c0ff3539539ec6e7d2d03a10a",
+      "sourceName": "src/deploy/Extsload.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IExtsload.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Extsload"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/NonzeroDeltaCount.sol": {
+      "lastModificationDate": 1754667505199,
+      "contentHash": "e897ca20f7ea8258eb2dcc17319dc233",
+      "sourceName": "src/deploy/libraries/NonzeroDeltaCount.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "NonzeroDeltaCount"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/Exttload.sol": {
+      "lastModificationDate": 1754667518571,
+      "contentHash": "5790a3ab16d768fbea25a72a4cd70059",
+      "sourceName": "src/deploy/Exttload.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IExttload.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Exttload"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/CustomRevert.sol": {
+      "lastModificationDate": 1754667505199,
+      "contentHash": "7c5352bf0b75f406d539e91f39d86627",
+      "sourceName": "src/deploy/libraries/CustomRevert.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CustomRevert"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/SafeCast.sol": {
+      "lastModificationDate": 1754667505201,
+      "contentHash": "7efd56acc85f88254a521ab4e32f1247",
+      "sourceName": "src/deploy/libraries/SafeCast.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CustomRevert.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeCast"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/ParseBytes.sol": {
+      "lastModificationDate": 1754667505198,
+      "contentHash": "4c3500fba937fb3c35ceffdd9da1181a",
+      "sourceName": "src/deploy/libraries/ParseBytes.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ParseBytes"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/interfaces/external/IERC20Minimal.sol": {
+      "lastModificationDate": 1754667505190,
+      "contentHash": "673e0abee46eec8a1fe8b7fd9670aeb6",
+      "sourceName": "src/deploy/interfaces/external/IERC20Minimal.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Minimal"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/interfaces/IProtocolFees.sol": {
+      "lastModificationDate": 1754667505189,
+      "contentHash": "0c0f37b4a5a4e73b58020f6af846b977",
+      "sourceName": "src/deploy/interfaces/IProtocolFees.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/Currency.sol",
+        "../types/PoolId.sol",
+        "../types/PoolKey.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IProtocolFees"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/interfaces/IExtsload.sol": {
+      "lastModificationDate": 1754667505188,
+      "contentHash": "d6736ed46cbb3b677519964ffea3ce9c",
+      "sourceName": "src/deploy/interfaces/IExtsload.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IExtsload"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/interfaces/IExttload.sol": {
+      "lastModificationDate": 1754667505189,
+      "contentHash": "c565abf89714dff14e9d67c9d72d028b",
+      "sourceName": "src/deploy/interfaces/IExttload.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "IExttload"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/LiquidityMath.sol": {
+      "lastModificationDate": 1754667505196,
+      "contentHash": "9ae2feefc960d9918c75d91cf2fde383",
+      "sourceName": "src/deploy/libraries/LiquidityMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LiquidityMath"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/FixedPoint128.sol": {
+      "lastModificationDate": 1754667505200,
+      "contentHash": "9a9bdb7b1c2b3dcd5696781da269b664",
+      "sourceName": "src/deploy/libraries/FixedPoint128.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FixedPoint128"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/FullMath.sol": {
+      "lastModificationDate": 1754667505201,
+      "contentHash": "065f312b89d9a0a2ae30f7eb1075a9a1",
+      "sourceName": "src/deploy/libraries/FullMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FullMath"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/BitMath.sol": {
+      "lastModificationDate": 1754667505199,
+      "contentHash": "633655f1ca090751fa0071b6ff5cae08",
+      "sourceName": "src/deploy/libraries/BitMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BitMath"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/types/Slot0.sol": {
+      "lastModificationDate": 1754667505211,
+      "contentHash": "3cc5b5f57bbaf0d584980900f98c956c",
+      "sourceName": "src/deploy/types/Slot0.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Slot0Library"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/TickBitmap.sol": {
+      "lastModificationDate": 1754667505197,
+      "contentHash": "463ec79d0ec75f44c0875910423683dc",
+      "sourceName": "src/deploy/libraries/TickBitmap.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BitMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TickBitmap"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/UnsafeMath.sol": {
+      "lastModificationDate": 1754667505202,
+      "contentHash": "5449f5bdc2713693c70bfc25b2154e7c",
+      "sourceName": "src/deploy/libraries/UnsafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UnsafeMath"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/SwapMath.sol": {
+      "lastModificationDate": 1754667505202,
+      "contentHash": "d535ac6e26806351d2fbed88ec7ce6dd",
+      "sourceName": "src/deploy/libraries/SwapMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./FullMath.sol",
+        "./SqrtPriceMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SwapMath"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/ProtocolFeeLibrary.sol": {
+      "lastModificationDate": 1754667505197,
+      "contentHash": "259d5255041bf91bf9f09f98bd940933",
+      "sourceName": "src/deploy/libraries/ProtocolFeeLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ProtocolFeeLibrary"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/SqrtPriceMath.sol": {
+      "lastModificationDate": 1754667505201,
+      "contentHash": "2cbf02cff5d8c660890fa6163e930e3b",
+      "sourceName": "src/deploy/libraries/SqrtPriceMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeCast.sol",
+        "./FullMath.sol",
+        "./UnsafeMath.sol",
+        "./FixedPoint96.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SqrtPriceMath"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/FixedPoint96.sol": {
+      "lastModificationDate": 1754667505202,
+      "contentHash": "8eea75c6982f168bbbdd38070f7a9622",
+      "sourceName": "src/deploy/libraries/FixedPoint96.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FixedPoint96"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/node_modules/solmate/src/auth/Owned.sol": {
+      "lastModificationDate": 1754667337582,
+      "contentHash": "11fec455b72d2743b77d783d6017e1e9",
+      "sourceName": "solmate/src/auth/Owned.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "Owned"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/StateLibrary.sol": {
+      "lastModificationDate": 1754667505200,
+      "contentHash": "c3a5ec9d59ea78391db1ec3a9eebb0d9",
+      "sourceName": "src/deploy/libraries/StateLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/PoolId.sol",
+        "../interfaces/IPoolManager.sol",
+        "./Position.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StateLibrary"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/TransientStateLibrary.sol": {
+      "lastModificationDate": 1754667505202,
+      "contentHash": "5915c3538eb806d92604d860fdb51613",
+      "sourceName": "src/deploy/libraries/TransientStateLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IPoolManager.sol",
+        "../types/Currency.sol",
+        "./CurrencyReserves.sol",
+        "./NonzeroDeltaCount.sol",
+        "./Lock.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "TransientStateLibrary"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/libraries/CurrencySettler.sol": {
+      "lastModificationDate": 1754717608556,
+      "contentHash": "94a3f58fd035747a1bc33074be7ad9df",
+      "sourceName": "src/deploy/libraries/CurrencySettler.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/Currency.sol",
+        "../interfaces/external/IERC20Minimal.sol",
+        "../interfaces/IPoolManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "CurrencySettler"
+      ]
+    },
+    "/Users/ye.xu/dev/golang/dev/xuye/uniswap_protocol/v3_v4/v4-core/src/deploy/helpers/V4AddLiquidityHelper.sol": {
+      "lastModificationDate": 1755349043274,
+      "contentHash": "9b01cd1f53290e17dde7b5b51a4ee78c",
+      "sourceName": "src/deploy/helpers/V4AddLiquidityHelper.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 44444444
+          },
+          "viaIR": true,
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "IERC20Minimal",
+        "IPoolManagerMinimal",
+        "IUnlockCallbackMinimal",
+        "V4AddLiquidityHelper"
+      ]
+    }
+  }
+}

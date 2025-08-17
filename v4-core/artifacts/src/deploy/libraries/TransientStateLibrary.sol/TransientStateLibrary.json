@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "TransientStateLibrary",
+  "sourceName": "src/deploy/libraries/TransientStateLibrary.sol",
+  "abi": [],
+  "bytecode": "0x6080806040523460175760399081601c823930815050f35b5f80fdfe5f80fdfea2646970667358221220006f4c6fb745b45f53a078d5aa316be3c509093c8ec03526a1422d0312a8d8dc64736f6c634300081a0033",
+  "deployedBytecode": "0x5f80fdfea2646970667358221220006f4c6fb745b45f53a078d5aa316be3c509093c8ec03526a1422d0312a8d8dc64736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "network": "bsc-testnet",
+      "manager": "0xC1DA7283769a7f098dB3eE08a522AdAAE081782b",
+      "token0": "0xb0C1d21F25D94fA6f3827909d622cd443D6def3e",
+      "token1": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec",
+      "fee": 3000,
+      "tickSpacing": 60,
+      "sqrtPriceX96": "79228162514264337593543950336",
+      "txInit": "0xd466ce34ecbf3fa581d8b07e09364577e4d121acedd045b0116b8be95414dcf4",
+      "timestamp": "2025-08-09T03:48:29.713Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "manager": "0xC1DA7283769a7f098dB3eE08a522AdAAE081782b",
+      "token0": "0x0000000000000000000000000000000000000000",
+      "token1": "0xb0C1d21F25D94fA6f3827909d622cd443D6def3e",
+      "fee": 3000,
+      "tickSpacing": 60,
+      "sqrtPriceX96": "79228162514264337593543950336",
+      "txInit": "SUCCESS",
+      "timestamp": "2025-08-16T12:40:47.996Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "manager": "0xC1DA7283769a7f098dB3eE08a522AdAAE081782b",
+      "token0": "0x0000000000000000000000000000000000000000",
+      "token1": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec",
+      "fee": 3000,
+      "tickSpacing": 60,
+      "sqrtPriceX96": "79228162514264337593543950336",
+      "txInit": "SUCCESS",
+      "timestamp": "2025-08-16T12:41:41.586Z"
+    }
+  ]
+}

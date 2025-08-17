@@ -1,0 +1,86 @@
+{
+  "records": [
+    {
+      "network": "bsc-testnet",
+      "alias": "TokenA",
+      "supply": "1000000",
+      "timestamp": "2025-08-09T02:41:12.847Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "alias": "TokenB",
+      "supply": "1000000",
+      "timestamp": "2025-08-09T02:41:12.847Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "alias": "TokenA",
+      "address": "0xb3491D3510DF65AE6399B4A2e852C711067149Ec",
+      "name": "Token A",
+      "symbol": "TKA",
+      "decimals": 18,
+      "supply": "1000000",
+      "timestamp": "2025-08-09T03:00:28.234Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "alias": "TokenB",
+      "address": "0xb0C1d21F25D94fA6f3827909d622cd443D6def3e",
+      "name": "Token B",
+      "symbol": "TKB",
+      "decimals": 18,
+      "supply": "1000000",
+      "timestamp": "2025-08-09T03:00:28.234Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "alias": "TokenA",
+      "address": "0x99070d29266D78b9a8f39fbf48Aa0643DB79D915",
+      "name": "Token A",
+      "symbol": "TKA",
+      "decimals": 18,
+      "supply": "1000000",
+      "timestamp": "2025-08-09T03:04:01.958Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "alias": "TokenB",
+      "address": "0xE3b09a079945cB2B808fEf368D6a9ba60De9821F",
+      "name": "Token B",
+      "symbol": "TKB",
+      "decimals": 18,
+      "supply": "1000000",
+      "timestamp": "2025-08-09T03:04:01.959Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "alias": "TokenA",
+      "deployed_tokens": "0xEF077aDBDF69Cd44D471dE2762C76818026f0eAc",
+      "name": "Token A",
+      "symbol": "TKA",
+      "decimals": 18,
+      "supply": "1000000",
+      "timestamp": "2025-08-09T03:09:46.980Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "alias": "TokenB",
+      "deployed_tokens": "0xf5Ec08500FE5e00BFD8B0d90dc716C0e13efbC68",
+      "name": "Token B",
+      "symbol": "TKB",
+      "decimals": 18,
+      "supply": "1000000",
+      "timestamp": "2025-08-09T03:09:46.980Z"
+    },
+    {
+      "network": "bsc-testnet",
+      "alias": "WBNB",
+      "deployed_tokens": "0xBc4a03641b37B24c7496Eb73A739318e101127d3",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "decimals": 18,
+      "supply": "1000000000000000000000000000",
+      "timestamp": "2025-08-10T01:21:51.039Z"
+    }
+  ]
+}

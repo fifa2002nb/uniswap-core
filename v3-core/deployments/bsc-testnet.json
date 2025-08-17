@@ -1,0 +1,8 @@
+{
+  "network": "bsc-testnet",
+  "factory": "0x5E8d6cD52e3aCD28D8fBB8d13FE2bB87015bF8c1",
+  "deployer": "0x658F54C9bA37CF5C3cfE1775245a82fBa639314A",
+  "owner": "0x658F54C9bA37CF5C3cfE1775245a82fBa639314A",
+  "timestamp": "2025-08-08T15:14:24.881Z",
+  "chainId": 97
+}
